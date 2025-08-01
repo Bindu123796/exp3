@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple eCommerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>ShopEasy</h1>
+    </div>
+    <div class="cart">
+      <button id="cartButton">Cart (0)</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="products">
+      <!-- Product 1 -->
+      <div class="product-card" id="product1">
+        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGUlMjBjb21tZXJjZXxlbnwwfHwwfHx8MA%3D%3D" alt="Product 1">
+        <h3>Product 1</h3>
+        <p>$15.99</p>
+        <button class="add-to-cart" data-id="1" data-name="Product 1" data-price="15.99">Add to Cart</button>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card" id="product2">
+        <img src="https://media.istockphoto.com/id/2160966987/photo/smartphone-with-application-online-shopping-platform-and-shopping-cart-icon-during-sitting-at.webp?a=1&b=1&s=612x612&w=0&k=20&c=ebd86X7bFFRXBfARVU8e52Gc_nPdtjyiqCOg4RQaahM=" alt="Product 2">
+        <h3>Product 2</h3>
+        <p>$25.99</p>
+        <button class="add-to-cart" data-id="2" data-name="Product 2" data-price="25.99">Add to Cart</button>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card" id="product3">
+        <img src="https://images.unsplash.com/photo-1695527081756-6e15ed27c6a3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGUlMjBjb21tZXJjZXxlbnwwfHwwfHx8MA%3D%3D" alt="Product 3">
+        <h3>Product 3</h3>
+        <p>$35.99</p>
+        <button class="add-to-cart" data-id="3" data-name="Product 3" data-price="35.99">Add to Cart</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ShopEasy. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
